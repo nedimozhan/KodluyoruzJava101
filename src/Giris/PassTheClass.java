@@ -56,6 +56,12 @@ public class PassTheClass {
 
         if(countOfLessons!=0){
             System.out.print("Teh average of lessons is : " + average/countOfLessons);
+            if(average/countOfLessons >= 55){
+                System.out.print("Passed");
+            }
+            else{
+                System.out.print("Missed");
+            }
         }
         else{
             System.out.print("Error !");
