@@ -27,6 +27,5 @@ public class GroceryStore {
         double aubergine = input.nextFloat();
 
         System.out.print("Total price is : "+ (2.14*pear + 3.67*apple + 1.11*tomato+0.95*banana+5*aubergine));
-        
     }
 }
