@@ -17,10 +17,5 @@ public class ExponentialNumbers {
         }
 
         System.out.print("The result is : "+result);
-
-
-
-
-
     }
 }
